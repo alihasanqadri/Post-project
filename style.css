@@ -1,0 +1,59 @@
+@font-face{
+    font-family: "Roboto,Rubik";
+    src: url(fonts/Roboto/Rubik);
+}
+*{
+    font-family:"Roboto/Rubik" ;
+}
+.navbar {
+    background-color:#284e3d !important;
+    height: 85px;
+}
+.navbar-brand{
+   color: #fff;
+  
+}
+.form-control{
+    width: 75%;
+}
+.btn-primary{
+    background-color: #284e3d !important;
+}
+.btn-primary:hover{
+    background-color: #284e3d !important;
+}
+.btn-primary:active{
+    background-color: #284e3d !important;
+}
+.swal2-confirm{
+    background-color: #284e3d !important;
+    width: 100%;
+}
+.swal2-actions{
+    width: 90% !important;
+}
+.images-list{
+    justify-content: space-evenly;  
+}
+.images-list> img{
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 4px;
+}
+.images-list-selected{
+    border: 2px solid #284e3d;
+}
+.card-body{
+    /* background-image:url(images/1.jpg); */
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.tdArea{
+    padding-left: 10%;
+}
+@media only screen and (max-width:500px)
+{
+    .main{
+        padding: 5px;
+    }
+}
